@@ -1,0 +1,21 @@
+.macroauthor{
+	padding: 0px 10px 20px 10px;
+}
+
+.macro{
+	padding: 0px 10px 0px 10px;
+}
+
+.macroname{
+	
+}
+
+.macrotext{
+	padding: 0px;
+}
+
+#fixed-btn-container{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}

@@ -1,0 +1,42 @@
+.video-frame{
+	border:none;
+}
+.faq-entry{
+	background-color: #222;
+	color:#fff;
+  -webkit-transition: all 1s linear;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+}
+.faq-entry:target {
+  background-color: #DDD;
+	color: #222;
+  -webkit-transition: all 1s linear;
+}
+
+.faq-entry:target .text-muted {
+	color: #444;
+  -webkit-transition: all 1s linear;
+}
+
+.spoiler-toggle {
+  cursor: pointer;
+}
+
+.spoiler {
+  display:none;
+}
+
+.image {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+
+.fit {
+
+  max-width:100%;
+}
